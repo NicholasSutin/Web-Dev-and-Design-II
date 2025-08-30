@@ -1,0 +1,47 @@
+body{
+    margin:10px auto;
+    max-width:900px;
+    padding: 0px 30px;
+    background-color:var(--bg);
+}
+:root{
+    --bg:rgb(255, 250, 245);
+    --fg:black;
+}
+nav{
+    position:fixed;
+    width:100vw;
+    border-bottom:2px solid var(--fg);
+    top:0;
+    left:0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:30px;
+    gap:10px;
+    background-color:var(--bg);
+}
+body:nth-child(2) {
+    margin-top: 40px;
+}
+input[type="submit"][value="Submit"], fieldset{
+    padding:8px;
+    border-radius:5px;
+    border:2px solid var(--fg);
+}
+button, input[type="submit"][value="Submit"]{
+    cursor:pointer;
+    border-radius:10px;
+}
+#contact-message{
+    width:calc(100% - 10px);
+}
+.banner{
+    left:0;
+    width:100%;
+    display:block;
+}
+h3{
+    text-decoration:underline;
+    font-size:24px;
+}
