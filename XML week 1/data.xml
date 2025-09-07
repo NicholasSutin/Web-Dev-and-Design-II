@@ -1,0 +1,20 @@
+<breakfast_menu>
+    <food>
+        <foodname>Pancakes</foodname>
+        <price>$7.00</price>
+        <description>Our classic 3-pancake stack with whipped cream and syrup of your choice.</description>
+        <calories>750</calories> 
+    </food>
+    <food>
+        <foodname>Bacon and Eggs</foodname>
+        <price>$11.95</price>
+        <description>5 strips of delicious sizzlin' bacon and 4 eggs cooked to your preference.</description>
+        <calories>600</calories> 
+    </food>
+    <food>
+        <foodname>Belgian Waffle</foodname>
+        <price>$1.10</price>
+        <description>Our signature sugar-frosted waffle, originating from our waffle houses on the Maine ski slopes in 1995.</description>
+        <calories>250</calories> 
+    </food>
+</breakfast_menu>
